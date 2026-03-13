@@ -1,0 +1,25 @@
+{
+  "name": "corebee",
+  "version": "2.0.0",
+  "description": "AI customer support operations toolkit — manage conversations, contacts, knowledge base, analytics, and team workload. 9 skills, 4 agents, 3 commands, hooks, and configurable settings.",
+  "author": {
+    "name": "Corebee",
+    "url": "https://corebee.ai",
+    "email": "support@corebee.ai"
+  },
+  "homepage": "https://corebee.ai",
+  "repository": "https://github.com/jonny-1812/corebee-mcp-skills",
+  "license": "MIT",
+  "keywords": [
+    "customer-support",
+    "crm",
+    "analytics",
+    "ai-support",
+    "helpdesk",
+    "mcp",
+    "knowledge-base",
+    "sla-monitoring",
+    "team-management"
+  ],
+  "mcpServers": "./.mcp.json"
+}

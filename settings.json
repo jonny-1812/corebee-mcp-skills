@@ -1,0 +1,36 @@
+{
+  "default_period": {
+    "type": "string",
+    "description": "Default time period for metrics and reports when the user does not specify one.",
+    "default": "this_week",
+    "enum": ["today", "this_week", "this_month", "last_7_days", "last_30_days"]
+  },
+  "sla_threshold_hours": {
+    "type": "number",
+    "description": "Hours before an unanswered conversation is considered SLA-breaching. Used by inbox-triage, escalation-manager, and sla-monitor.",
+    "default": 4,
+    "minimum": 1,
+    "maximum": 72
+  },
+  "auto_assign": {
+    "type": "boolean",
+    "description": "Whether skills should suggest automatic assignment of unassigned conversations. When false, they only recommend without executing.",
+    "default": false
+  },
+  "report_format": {
+    "type": "string",
+    "description": "Output format for generated reports and summaries.",
+    "default": "markdown",
+    "enum": ["markdown", "plain_text"]
+  },
+  "show_ids": {
+    "type": "boolean",
+    "description": "Display internal UUIDs alongside human-readable names. Useful for debugging or API work.",
+    "default": false
+  },
+  "timezone": {
+    "type": "string",
+    "description": "IANA timezone for timestamps in reports and triage output.",
+    "default": "UTC"
+  }
+}
