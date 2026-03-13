@@ -1,0 +1,17 @@
+{
+  "name": "corebee",
+  "displayName": "Corebee - AI Customer Support",
+  "version": "1.0.0",
+  "description": "Manage customer conversations, contacts, knowledge base, and analytics for your AI-powered support platform.",
+  "author": {
+    "name": "Corebee",
+    "url": "https://corebee.ai"
+  },
+  "homepage": "https://corebee.ai",
+  "repository": "https://github.com/corebee-ai/corebee-mcp",
+  "license": "MIT",
+  "keywords": ["customer-support", "crm", "analytics", "ai-support", "helpdesk"],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "mcpServers": "./.mcp.json"
+}

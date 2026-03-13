@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "corebee": {
+      "type": "sse",
+      "url": "https://corebee.ai/api/v1/mcp",
+      "description": "Corebee AI Customer Support — manage conversations, contacts, knowledge base, analytics, and widget settings.",
+      "auth": {
+        "type": "oauth",
+        "authorizationUrl": "https://corebee.ai/api/v1/mcp/oauth/authorize",
+        "tokenUrl": "https://corebee.ai/api/v1/mcp/oauth/token",
+        "registrationUrl": "https://corebee.ai/api/v1/mcp/oauth/register"
+      }
+    }
+  }
+}
