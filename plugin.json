@@ -8,10 +8,8 @@
     "url": "https://corebee.ai"
   },
   "homepage": "https://corebee.ai",
-  "repository": "https://github.com/corebee-ai/corebee-mcp",
   "license": "MIT",
-  "keywords": ["customer-support", "crm", "analytics", "ai-support", "helpdesk"],
+  "keywords": ["customer-support", "crm", "analytics", "ai-support", "helpdesk", "mcp"],
   "skills": "./skills/",
-  "agents": "./agents/",
   "mcpServers": "./.mcp.json"
 }

@@ -28,11 +28,11 @@ Skills are packaged instructions that help Claude use the MCP tools effectively 
 
 | Skill | Description |
 |-------|-------------|
-| **[inbox-triage](skills/inbox-triage.md)** | Triage and prioritize open support conversations. Summarizes unassigned conversations, identifies urgent issues, and suggests assignments. |
-| **[weekly-report](skills/weekly-report.md)** | Generate a comprehensive weekly support operations report with KPIs, team performance, channel breakdown, and trends. |
-| **[contact-onboard](skills/contact-onboard.md)** | Onboard a new contact into the support system by creating their profile, adding notes, and checking for duplicates. |
-| **[knowledge-manager](skills/knowledge-manager.md)** | Manage the AI knowledge base — list sources, check indexing status, add new URLs, search content, and audit coverage gaps. |
-| **[widget-customizer](skills/widget-customizer.md)** | Customize the chat widget appearance and behavior through natural language — colors, messages, bot name, and more. |
+| **[inbox-triage](skills/inbox-triage/SKILL.md)** | Triage and prioritize open support conversations. Summarizes unassigned conversations, identifies urgent issues, and suggests assignments. |
+| **[weekly-report](skills/weekly-report/SKILL.md)** | Generate a comprehensive weekly support operations report with KPIs, team performance, channel breakdown, and trends. |
+| **[contact-onboard](skills/contact-onboard/SKILL.md)** | Onboard a new contact into the support system by creating their profile, adding notes, and checking for duplicates. |
+| **[knowledge-manager](skills/knowledge-manager/SKILL.md)** | Manage the AI knowledge base — list sources, check indexing status, add new URLs, search content, and audit coverage gaps. |
+| **[widget-customizer](skills/widget-customizer/SKILL.md)** | Customize the chat widget appearance and behavior through natural language — colors, messages, bot name, and more. |
 
 ## Installation
 
