@@ -1,15 +1,9 @@
 {
   "mcpServers": {
     "corebee": {
-      "type": "sse",
-      "url": "https://corebee.ai/api/v1/mcp",
-      "description": "Corebee AI Customer Support — manage conversations, contacts, knowledge base, analytics, and widget settings.",
-      "auth": {
-        "type": "oauth",
-        "authorizationUrl": "https://corebee.ai/api/v1/mcp/oauth/authorize",
-        "tokenUrl": "https://corebee.ai/api/v1/mcp/oauth/token",
-        "registrationUrl": "https://corebee.ai/api/v1/mcp/oauth/register"
-      }
+      "type": "http",
+      "url": "https://corebee.ai/api/v1/mcp/stream",
+      "description": "Corebee AI Customer Support — manage conversations, contacts, knowledge base, analytics, and widget settings. OAuth is discovered automatically from the server's WWW-Authenticate / .well-known metadata; no inline auth config required."
     }
   }
 }

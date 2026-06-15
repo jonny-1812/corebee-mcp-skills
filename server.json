@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jonny-1812/corebee",
+  "description": "AI-native customer support over MCP — manage conversations, contacts, knowledge base (RAG), analytics, and the chat widget, and autonomously provision a new Corebee account with a 14-day trial straight from your terminal.",
+  "title": "Corebee — AI Customer Support",
+  "websiteUrl": "https://corebee.ai",
+  "repository": {
+    "url": "https://github.com/jonny-1812/corebee-mcp-skills",
+    "source": "github"
+  },
+  "version": "2.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://corebee.ai/api/v1/mcp/stream"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "corebee",
+  "owner": {
+    "name": "Corebee",
+    "email": "jonathan@corebee.ai"
+  },
+  "plugins": [
+    {
+      "name": "corebee",
+      "source": "./",
+      "description": "Run your AI customer support from your editor — manage conversations, contacts, knowledge base, analytics, and the chat widget. Includes a remote (hosted) MCP server with OAuth, 9 skills, 4 agents, 3 commands, plus an agent-native signup that creates a brand-new Corebee account from your terminal (14-day free trial, no card)."
+    }
+  ]
+}

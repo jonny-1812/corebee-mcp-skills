@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.1] - 2026-06-15
+
+### Fixed
+- MCP transport modernized: `.mcp.json` now uses Streamable HTTP (`type: http`) at the
+  canonical endpoint `https://corebee.ai/api/v1/mcp/stream`. The previous config pointed at
+  the deprecated SSE endpoint `/api/v1/mcp` with an inline OAuth block — OAuth is now
+  discovered automatically from the server's `WWW-Authenticate` / `.well-known` metadata.
+- README install instructions updated to the current endpoint and transport.
+
+### Added
+- `.claude-plugin/marketplace.json` — the plugin is now installable via
+  `/plugin marketplace add jonny-1812/corebee-mcp-skills`.
+- `server.json` — listing in the official MCP Registry as `io.github.jonny-1812/corebee`.
+- `.github/workflows/publish-mcp.yml` — auto-publish to the registry on version tags via GitHub OIDC.
+- Plugin icon.
+
 ## [2.0.0] - 2026-03-13
 
 ### Added

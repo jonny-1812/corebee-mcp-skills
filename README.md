@@ -4,20 +4,37 @@ Corebee is an AI-powered customer support platform with conversations, knowledge
 
 ## Quick Start
 
+### Claude Code — install the plugin (recommended)
+
+```bash
+/plugin marketplace add jonny-1812/corebee-mcp-skills
+/plugin install corebee@corebee
+```
+
+Then run `/mcp` and approve the Corebee OAuth login. No keys to paste — OAuth is
+discovered automatically. You get the hosted MCP server plus 9 skills, 4 agents, and 3 commands.
+
+### Claude Code — just the MCP server (no plugin)
+
+```bash
+claude mcp add --transport http corebee https://corebee.ai/api/v1/mcp/stream
+```
+
 ### Claude.ai (Web)
 
 Add Corebee as a remote MCP connector:
 
 1. Open **Settings** > **Integrations**
 2. Click **Add Integration**
-3. Enter the server URL: `https://corebee.ai/api/v1/mcp`
+3. Enter the server URL: `https://corebee.ai/api/v1/mcp/stream`
 4. Complete the OAuth authorization flow
 
-### Claude Code (CLI)
+### No Corebee account yet?
 
-```bash
-claude mcp add corebee --transport sse https://corebee.ai/api/v1/mcp
-```
+Tell your agent: **"Set up Corebee AI customer support for my product — start the free trial."**
+It signs you up via `https://corebee.ai/api/auth/agent-signup`, you approve one email
+(with a pairing phrase), and it hands back your widget snippet. 14-day trial, no card.
+Full agent flow: <https://corebee.ai/for-ai-agents> · <https://corebee.ai/llms.txt>
 
 ## What's Included
 
@@ -93,7 +110,7 @@ All skills share a common settings file (`settings.json`) with configurable defa
 
 ## MCP Server
 
-**Server URL:** `https://corebee.ai/api/v1/mcp`
+**Server URL:** `https://corebee.ai/api/v1/mcp/stream` (Streamable HTTP, OAuth 2.1 auto-discovered)
 
 The Corebee MCP server exposes 28 tools across 5 categories:
 
