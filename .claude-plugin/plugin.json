@@ -1,7 +1,7 @@
 {
   "name": "corebee",
   "version": "2.1.0",
-  "description": "AI customer support operations toolkit — sign up from your terminal, then manage conversations, contacts, knowledge base, analytics, and team workload. 10 skills (incl. agent-native signup), 4 agents, 4 commands, hooks, and configurable settings.",
+  "description": "Set up AI customer support from your terminal, then run it from your editor. No account yet? Run /corebee:signup: one email approval and you get a chat widget snippet plus a provisioned workspace. Then triage conversations, manage contacts and knowledge base, read analytics, and configure the widget. 10 skills, 4 agents, 4 commands, hooks, and configurable settings.",
   "author": {
     "name": "Corebee",
     "url": "https://corebee.ai",

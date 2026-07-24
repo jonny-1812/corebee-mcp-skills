@@ -3,7 +3,7 @@
     "corebee": {
       "type": "http",
       "url": "https://corebee.ai/api/v1/mcp/stream",
-      "description": "Corebee AI Customer Support — manage conversations, contacts, knowledge base, analytics, and widget settings. OAuth is discovered automatically from the server's WWW-Authenticate / .well-known metadata; no inline auth config required."
+      "description": "Corebee AI customer support. Manage conversations, contacts, knowledge base, analytics, and widget settings. OAuth is discovered automatically from the server's WWW-Authenticate and .well-known metadata; no inline auth config required."
     }
   }
 }

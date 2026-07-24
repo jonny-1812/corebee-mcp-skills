@@ -8,7 +8,7 @@
     {
       "name": "corebee",
       "source": "./",
-      "description": "Run your AI customer support from your editor — manage conversations, contacts, knowledge base, analytics, and the chat widget. Includes a remote (hosted) MCP server with OAuth, 10 skills, 4 agents, 4 commands, plus an agent-native signup (`/corebee:signup`) that creates a brand-new Corebee account from your terminal — one email approval, no dashboard (14-day free trial, no card)."
+      "description": "Set up AI customer support from your terminal, then run it from your editor. No Corebee account yet? Run /corebee:signup: one email approval, and your agent gets back a chat widget snippet, a provisioned workspace, and a docs crawl already running. No dashboard visit needed. Already a customer? Triage conversations, manage contacts and knowledge base, read analytics, and configure the widget. Hosted MCP server with OAuth. 10 skills, 4 agents, 4 commands. 14-day trial, no card."
     }
   ]
 }

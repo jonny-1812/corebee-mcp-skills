@@ -1,20 +1,20 @@
 # Corebee -- AI Customer Support Plugin for Claude Code
 
-Corebee is an AI-powered customer support platform with conversations, knowledge base, contact management, analytics, and multi-channel support. This plugin gives Claude full operational control over a Corebee workspace through 9 skills, 4 specialized agents, 3 slash commands, and a hook system for guardrails -- making it the most comprehensive support operations plugin available for Claude Code and Claude.ai.
+Corebee is an AI-powered customer support platform with conversations, knowledge base, contact management, analytics, and multi-channel support. This plugin gives Claude full operational control over a Corebee workspace through 10 skills, 4 specialized agents, 4 slash commands, and a hook system for guardrails -- making it the most comprehensive support operations plugin available for Claude Code and Claude.ai.
 
 ## Quick Start
 
-### Claude Code — install the plugin (recommended)
+### Claude Code: install the plugin (recommended)
 
 ```bash
 /plugin marketplace add jonny-1812/corebee-mcp-skills
 /plugin install corebee@corebee
 ```
 
-Then run `/mcp` and approve the Corebee OAuth login. No keys to paste — OAuth is
-discovered automatically. You get the hosted MCP server plus 9 skills, 4 agents, and 3 commands.
+Then run `/mcp` and approve the Corebee OAuth login. No keys to paste. OAuth is
+discovered automatically. You get the hosted MCP server plus 10 skills, 4 agents, and 4 commands.
 
-### Claude Code — just the MCP server (no plugin)
+### Claude Code: just the MCP server (no plugin)
 
 ```bash
 claude mcp add --transport http corebee https://corebee.ai/api/v1/mcp/stream
@@ -31,10 +31,10 @@ Add Corebee as a remote MCP connector:
 
 ### No Corebee account yet?
 
-Run **`/corebee:signup`**, or just tell your agent: **"Set up Corebee AI customer support for my product — start the free trial."**
+Run **`/corebee:signup`**, or just tell your agent: **"Set up Corebee AI customer support for my product, start the free trial."**
 The bundled **agent-signup** skill signs you up via `https://corebee.ai/api/auth/agent-signup`: you approve one
 email (with a pairing phrase), and your agent gets back a scoped API key, your org, and a ready-to-paste widget
-snippet — no dashboard, no browser login. 14-day trial, no card. That same key then drives every tool in this plugin.
+snippet. No dashboard, no browser login. 14-day trial, no card. That same key then drives every tool in this plugin.
 Full agent flow: <https://corebee.ai/for-ai-agents> · <https://corebee.ai/llms.txt>
 
 ## What's Included
@@ -53,6 +53,7 @@ Skills are structured workflows that guide Claude through multi-step support ope
 
 | Skill | Description | Example Triggers |
 |-------|-------------|------------------|
+| **agent-signup** | Create a brand new Corebee account from the terminal. One email approval, then returns a scoped key, workspace, and widget snippet | "Set up Corebee", "Start the free trial" |
 | **inbox-triage** | Prioritize open conversations by urgency, suggest assignments, auto-assign with confirmation | "Triage my inbox", "What needs attention?" |
 | **weekly-report** | Generate a full support report with KPIs, team rankings, channel breakdown, and trends | "Weekly report", "How did we do last week?" |
 | **contact-onboard** | Add contacts with duplicate detection, bulk import, updates, and contextual notes | "Add John Smith john@acme.com", "Onboard these 5 contacts" |
@@ -80,6 +81,7 @@ Commands are lightweight slash-command shortcuts for frequent operations.
 
 | Command | Usage | What It Does |
 |---------|-------|--------------|
+| `/corebee:signup` | Run directly | Creates a brand new Corebee account from your terminal, then hands back your chat widget snippet and provisioned workspace |
 | `/corebee:triage` | Run directly | Quick inbox triage -- classifies conversations as urgent, stale, or active and suggests assignments |
 | `/corebee:report` | Run directly | Generates a weekly support report with overview KPIs, team performance table, channel breakdown, and trends |
 | `/corebee:kb-status` | Run directly | Audits knowledge base health -- counts sources by status, flags errors and empty sources, recommends fixes |
