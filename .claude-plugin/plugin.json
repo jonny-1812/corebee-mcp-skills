@@ -1,7 +1,7 @@
 {
   "name": "corebee",
-  "version": "2.0.1",
-  "description": "AI customer support operations toolkit — manage conversations, contacts, knowledge base, analytics, and team workload. 9 skills, 4 agents, 3 commands, hooks, and configurable settings.",
+  "version": "2.1.0",
+  "description": "AI customer support operations toolkit — sign up from your terminal, then manage conversations, contacts, knowledge base, analytics, and team workload. 10 skills (incl. agent-native signup), 4 agents, 4 commands, hooks, and configurable settings.",
   "author": {
     "name": "Corebee",
     "url": "https://corebee.ai",

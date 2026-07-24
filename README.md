@@ -31,18 +31,19 @@ Add Corebee as a remote MCP connector:
 
 ### No Corebee account yet?
 
-Tell your agent: **"Set up Corebee AI customer support for my product — start the free trial."**
-It signs you up via `https://corebee.ai/api/auth/agent-signup`, you approve one email
-(with a pairing phrase), and it hands back your widget snippet. 14-day trial, no card.
+Run **`/corebee:signup`**, or just tell your agent: **"Set up Corebee AI customer support for my product — start the free trial."**
+The bundled **agent-signup** skill signs you up via `https://corebee.ai/api/auth/agent-signup`: you approve one
+email (with a pairing phrase), and your agent gets back a scoped API key, your org, and a ready-to-paste widget
+snippet — no dashboard, no browser login. 14-day trial, no card. That same key then drives every tool in this plugin.
 Full agent flow: <https://corebee.ai/for-ai-agents> · <https://corebee.ai/llms.txt>
 
 ## What's Included
 
 | Component | Count | Description |
 |-----------|-------|-------------|
-| Skills | 9 | Guided workflows for common support operations |
+| Skills | 10 | Guided workflows for common support operations (incl. agent-native signup) |
 | Agents | 4 | Specialized sub-agents for delegated analysis and action |
-| Commands | 3 | Slash commands for quick, frequent tasks |
+| Commands | 4 | Slash commands for quick, frequent tasks (incl. `/corebee:signup`) |
 | Hooks | 5 | Guardrail scripts that validate, warn, and log tool usage |
 | Settings | 6 | Configurable defaults shared across all skills |
 
